@@ -1,0 +1,25 @@
+.answer {
+  background-color: #007bff;
+  border: 1px solid #0056b3;
+  color: white;
+  padding: 8px 16px;
+  font-size: 14px;
+  margin: 4px;
+  cursor: pointer;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.answer:hover {
+  background-color: #0056b3;
+}
+
+.answer.correct {
+  background-color: #28a745;
+  border: 1px solid #218838;
+}
+
+.answer.incorrect {
+  background-color: #dc3545;
+  border: 1px solid #c82333;
+}
